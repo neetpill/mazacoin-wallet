@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="symbol_to">→</string>
+	<string name="symbol_from">←</string>
+	<string name="symbol_internal">⇄</string>
+	<string name="app_name">MazaCoin</string>
+
+	<string-array name="preferences_precision_values">
+		<item>8</item>
+		<item>6</item>
+		<item>4</item>
+		<item>2/3</item>
+	</string-array>
+	<string-array name="preferences_precision_labels">
+		<item>MZC, 8 digits</item>
+		<item>MZC, 6 digits</item>
+		<item>MZC, 4 digits</item>
+		<item>mMZC, 2 digits</item>
+	</string-array>
+
+    <string-array name="preferences_exchange_rate_method_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    
+<string-array name="preferences_exchange_rate_method_labels">
+        <item>Bittrex</item>
+        <item>Cryptopia</item>
+    </string-array>
+
+    <string name="exchange_rate_url_bittrex">https://bittrex.com/api/v1.1/public/getticker?market=BTC-MZC</string>
+    <string name="exchange_rate_url_cryptsy">https://bittrex.com/api/v1.1/public/getticker?market=BTC-MZC</string>
+    <string name="exchange_rate_url_mintpal">https://bittrex.com/api/v1.1/public/getticker?market=BTC-MZC</string>
+    <string name="exchange_rate_url_bter">https://bittrex.com/api/v1.1/public/getticker?market=BTC-MZC</string>
+
+    <string-array name="exchange_rate_fields_bter">
+        <item>last</item>
+    </string-array>
+    <string-array name="exchange_rate_fields_mintpal">
+        <item>last_price</item>
+    </string-array>
+    <string-array name="exchange_rate_fields_cryptsy">
+        <item>lasttradeprice</item>
+    </string-array>
+
+</resources>
