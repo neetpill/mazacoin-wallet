@@ -348,7 +348,7 @@ public class ExchangeRatesProvider extends ContentProvider
 
         //final Map<String, ExchangeRate> rates = new TreeMap<String, ExchangeRate>();
         Double btcRate = 0.0;
-        String url = "https://bittrex.com/api/v1.1/public/getticker?market=BTC-MZC";
+        String url = "https://www.cryptopia.co.nz/api/GetMarket/MZC_BTC";
 
         try {
             // final String currencyCode = currencies[i];
@@ -366,8 +366,8 @@ public class ExchangeRatesProvider extends ContentProvider
                 reader = new InputStreamReader(new BufferedInputStream(conn.getInputStream(), 1024));
                 Io.copy(reader, content);
                 final JSONObject obj = new JSONObject(content.toString());
-                JSONObject result = obj.getJSONObject("result");
-                btcRate = result.getDouble("Bid");
+                JSONObject result = obj.getJSONObject("Data");
+                btcRate = result.getDouble("AskPrice");
             }
             finally
             {

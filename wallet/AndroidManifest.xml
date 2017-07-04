@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="cc.mazacoin.wallet"
     android:installLocation="internalOnly"
-    android:versionCode="155"
-    android:versionName="0.2-BETA" >
+    android:versionCode="156"
+    android:versionName="0.3" >
 
 	<uses-sdk
 		android:minSdkVersion="10"

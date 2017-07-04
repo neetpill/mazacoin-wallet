@@ -4,9 +4,9 @@
 
 	<modelVersion>4.0.0</modelVersion>
 
-	<artifactId>mazacoin-wallet</artifactId>
+	<artifactId>wallet</artifactId>
 	<packaging>apk</packaging>
-	<version>0.2-BETA</version>
+	<version>0.3</version>
 	<name>MazaCoin Wallet</name>
 
 	<parent>
